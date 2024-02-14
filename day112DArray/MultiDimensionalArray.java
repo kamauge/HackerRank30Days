@@ -15,9 +15,12 @@ public class MultiDimensionalArray {
 
         for (int row = 0; row < arr.length; row++){
             //for each col in row
-            for (int col = 0; col< arr[row].length; col++);
+            for (int col = 0; col< arr[row].length; col++){
+                System.out.println("Row: " + row + ", Column: " + col + ", Value: " + arr[row][col]);
+               // arr[row][col] =
 
-            System.out.println(row);
+            }
+
         }
     }
 }
